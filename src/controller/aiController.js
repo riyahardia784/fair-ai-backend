@@ -6,7 +6,7 @@ export const explainBias = async (req, res) => {
 
     const genAI = new GoogleGenerativeAI(process.env.API_KEY);
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash"
+      model: "gemini-2-flash-lite"
     });
 
     const result = await model.generateContent(`
