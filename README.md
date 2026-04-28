@@ -137,7 +137,7 @@ backend/
 ### Steps
 
 ```bash
-git clone https://github.com/yourusername/fair-ai-backend.git
+git clone https://github.com/riyahardia784/fair-ai-backend.git
 cd fair-ai-backend
 npm install
 ```
