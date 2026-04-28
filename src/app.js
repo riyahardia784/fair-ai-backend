@@ -12,7 +12,7 @@ const aiRoute=require('./routes/aiRoutes')
 app.use(express.urlencoded({extended:false}));
 
 app.get('/',(req,res)=>{
-    res.send("hello world");
+    res.send("this is backend server of FairAI");
 });
 
 app.use('/FairAI',analyzeRoute);
